@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route id="R_J18_via_J19_J20_to_J2" edges="E_J18_to_J19 E_J19_to_J20 E_J20_to_J2" color="green" />
+    <route id="R_J18_via_J19_J20_to_J46" edges="E_J18_to_J19 E_J19_to_J20 E_J20_to_J46" color="red" />
+    <route id="R_J18_via_J19_J20_to_J21" edges="E_J18_to_J19 E_J19_to_J20 E_J20_to_J21" color="blue" />
+    <route id="R_J21_via_J20_J19_to_18" edges="E_J21_to_J20 E_J20_to_J19 E_J19_to_J18" color="yellow" />
+    <route id="R_J21_via_J20_to_J2" edges="E_J21_to_J20 E_J20_to_J2" color="green" />
+    <route id="R_J21_via_J20_to_J46" edges="E_J21_to_J20 E_J20_to_J46" color="red" />
+    <route id="R_J2_via_J20_to_J19" edges="E_J2_to_J20 E_J20_to_J19 E_J19_to_J18" color="yellow" />
+    <route id="R_J2_via_J20_to_J21" edges="E_J2_to_J20 E_J20_to_J21" color="blue" />
+    <route id="R_J2_via_J20_to_J46" edges="E_J2_to_J20 E_J20_to_J46" color="red" />
+    <route id="R_J53_via_J19_J20_to_J2" edges="E_J53_to_J19 E_J19_to_J20 E_J20_to_J2" color="green" />
+    <route id="R_J53_via_J19_J20_to_J21" edges="E_J53_to_J19 E_J19_to_J20 E_J20_to_J21" color="blue" />
+    <route id="R_J53_via_J19_J20_to_J46" edges="E_J53_to_J19 E_J19_to_J20 E_J20_to_J46" color="red" />
+    <route id="R_J53_via_J19_to_J18" edges="E_J53_to_J19 E_J19_to_J18" color="yellow" />
+    <flow id="F_AM_J18_via_J19_J20_to_J2" begin="0" end="3600" perHour="58.2" route="R_J18_via_J19_J20_to_J2" />
+    <flow id="F_AM_J18_via_J19_J20_to_J46" begin="0" end="3600" perHour="54.1" route="R_J18_via_J19_J20_to_J46" />
+    <flow id="F_AM_J18_via_J19_J20_to_J21" begin="0" end="3600" perHour="131.7" route="R_J18_via_J19_J20_to_J21" />
+    <flow id="F_AM_J21_via_J20_J19_to_J18" begin="0.00" end="3600.00" perHour="372.02" route="R_J21_via_J20_J19_to_18" />
+    <flow id="F_AM_J21_via_J20_to_J2" begin="0.00" end="3600.00" perHour="41" route="R_J21_via_J20_to_J2" />
+    <flow id="F_AM_J21_via_J20_to_J46" begin="0" end="3600" perHour="245" route="R_J21_via_J20_to_J46" />
+    <flow id="F_AM_J2_via_J20_to_J19" begin="0" end="3600" perHour="45" route="R_J2_via_J20_to_J19" />
+    <flow id="F_AM_J2_via_J20_to_J21" begin="0" end="3600" perHour="35" route="R_J2_via_J20_to_J21" />
+    <flow id="F_AM_J2_via_J20_to_J46" begin="0" end="3600" perHour="76" route="R_J2_via_J20_to_J46" />
+    <flow id="F_AM_J53_via_J19_J20_to_J2" begin="0" end="3600" perHour="5.7" route="R_J53_via_J19_J20_to_J2" />
+    <flow id="F_AM_J53_via_J19_J20_to_J21" begin="0" end="3600" perHour="13" route="R_J53_via_J19_J20_to_J21" />
+    <flow id="F_AM_J53_via_J19_J20_to_J46" begin="0" end="3600" perHour="5.3" route="R_J53_via_J19_J20_to_J46" />
+    <flow id="F_AM_J53_via_J19_to_J18" begin="0" end="3600" perHour="317" route="R_J53_via_J19_to_J18" />
+</routes>

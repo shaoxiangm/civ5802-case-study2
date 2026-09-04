@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional>
+    <timedEvent type="SaveTLSStates" source="J19" dest="outputs/J19_tls.xml" />
+    <timedEvent type="SaveTLSStates" source="J20" dest="outputs/J20_tls.xml" />
+</additional>

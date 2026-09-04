@@ -1,0 +1,24 @@
+Loading net-file from 'J19_J20_AM_baseline.net.xml' ... done (18ms).
+Loading additional-files from 'J19_J20_AM_baseline.signals.add.xml' ... done (9ms).
+Loading additional-files from 'J19_J20_AM_baseline.outputs.add.xml' ... done (10ms).
+Loading route-files incrementally from 'J19_J20_AM_baseline.rou.xml'
+Loading done.
+Simulation version 1.27.1 started with time: 0.00.
+Simulation ended at time: 4200.00.
+Reason: The final simulation step has been reached.
+Performance:
+ Duration: 0.30s
+ Real time factor: 13907.3
+ UPS: 442847.682119
+Vehicles:
+ Inserted: 1407
+ Running: 0
+ Waiting: 0
+Statistics (avg of 1407):
+ RouteLength: 290.53
+ Speed: 4.73
+ Duration: 95.05
+ WaitingTime: 52.55
+ TimeLoss: 67.95
+ DepartDelay: 102.31
+ DepartDelayWaiting: 0.00

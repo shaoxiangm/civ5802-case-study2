@@ -1,0 +1,8 @@
+﻿SUMO 1.27.1 phase-2 validation
+All scenario networks are byte-identical to the manually verified corrected network.
+No invalid route, disconnected route, unknown edge, TLS mismatch, teleport, warning, or error was found.
+
+PASS | J19_J20_AM_baseline | routes=13 | flows=13 | demand=1399.020 PCU/h | J19_links=4 | J20_links=9 | completed=1407
+PASS | J19_J20_PM_baseline | routes=13 | flows=10 | demand=1366.000 PCU/h | J19_links=4 | J20_links=9 | completed=1372
+PASS | J19_J20_AM_signal_optimization | routes=13 | flows=13 | demand=1399.020 PCU/h | J19_links=4 | J20_links=9 | completed=1407
+PASS | J19_J20_PM_signal_optimization | routes=13 | flows=10 | demand=1366.000 PCU/h | J19_links=4 | J20_links=9 | completed=1372

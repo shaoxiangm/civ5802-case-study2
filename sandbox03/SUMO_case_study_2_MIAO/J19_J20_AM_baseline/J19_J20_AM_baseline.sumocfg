@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+    <input>
+        <net-file value="J19_J20_AM_baseline.net.xml" />
+        <route-files value="J19_J20_AM_baseline.rou.xml" />
+        <additional-files value="J19_J20_AM_baseline.signals.add.xml,J19_J20_AM_baseline.outputs.add.xml" />
+    </input>
+    <time>
+        <begin value="0" />
+        <end value="4200" />
+    </time>
+    <processing>
+        <time-to-teleport value="300" />
+    </processing>
+    <output>
+        <tripinfo-output value="outputs/tripinfo.xml" />
+        <summary-output value="outputs/summary.xml" />
+        <statistic-output value="outputs/statistics.xml" />
+        <queue-output value="outputs/queue.xml" />
+        <tripinfo-output.write-unfinished value="true" />
+        <tripinfo-output.write-undeparted value="true" />
+    </output>
+</configuration>

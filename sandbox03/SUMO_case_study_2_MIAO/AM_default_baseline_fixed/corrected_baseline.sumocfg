@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+    <input>
+        <net-file value="corrected_baseline.net.xml" />
+        <route-files value="corrected_baseline.rou.xml" />
+    </input>
+    <time>
+        <begin value="0" />
+        <end value="4200" />
+    </time>
+</configuration>

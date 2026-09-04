@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<additional>
+    <tlLogic id="J19" type="static" programID="scenario" offset="0">
+        <phase duration="48" state="GrrG" name="J18_J20_green" />
+        <phase duration="3" state="yrry" name="J18_J20_yellow" />
+        <phase duration="36" state="rGGr" name="J53_green" />
+        <phase duration="3" state="ryyr" name="J53_yellow" />
+    </tlLogic>
+    <tlLogic id="J20" type="static" programID="scenario" offset="75">
+        <phase duration="66" state="rrrGGgGGg" name="J19_J21_green" />
+        <phase duration="3" state="rrryyyyyy" name="J19_J21_yellow" />
+        <phase duration="18" state="GGgrrrrrr" name="J2_green" />
+        <phase duration="3" state="yyyrrrrrr" name="J2_yellow" />
+    </tlLogic>
+</additional>

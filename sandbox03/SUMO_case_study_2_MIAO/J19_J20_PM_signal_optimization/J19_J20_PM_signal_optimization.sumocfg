@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+    <input>
+        <net-file value="J19_J20_PM_signal_optimization.net.xml" />
+        <route-files value="J19_J20_PM_signal_optimization.rou.xml" />
+        <additional-files value="J19_J20_PM_signal_optimization.signals.add.xml,J19_J20_PM_signal_optimization.outputs.add.xml" />
+    </input>
+    <time>
+        <begin value="0" />
+        <end value="4200" />
+    </time>
+    <processing>
+        <time-to-teleport value="300" />
+    </processing>
+    <output>
+        <tripinfo-output value="outputs/tripinfo.xml" />
+        <summary-output value="outputs/summary.xml" />
+        <statistic-output value="outputs/statistics.xml" />
+        <queue-output value="outputs/queue.xml" />
+        <tripinfo-output.write-unfinished value="true" />
+        <tripinfo-output.write-undeparted value="true" />
+    </output>
+</configuration>

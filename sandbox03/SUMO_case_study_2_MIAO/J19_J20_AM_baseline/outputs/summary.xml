@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-09-04T12:43:23.121559+08:00 by Eclipse SUMO GUI 1.27.1
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\J19_J20_AM_baseline.net.xml"/>
+        <route-files value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\J19_J20_AM_baseline.rou.xml"/>
+        <additional-files value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\J19_J20_AM_baseline.signals.add.xml,C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\J19_J20_AM_baseline.outputs.add.xml"/>
+    </input>
+
+    <output>
+        <queue-output value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\outputs/queue.xml"/>
+        <summary-output value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\outputs/summary.xml"/>
+        <tripinfo-output value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\outputs/tripinfo.xml"/>
+        <tripinfo-output.write-undeparted value="true"/>
+        <statistic-output value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\outputs/statistics.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="4200"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="300"/>
+    </processing>
+
+</sumoConfiguration>
+-->
+
+<summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/summary_file.xsd">
+</summary>

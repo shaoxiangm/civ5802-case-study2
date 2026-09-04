@@ -1,0 +1,24 @@
+Loading net-file from 'J19_J20_AM_signal_optimization.net.xml' ... done (16ms).
+Loading additional-files from 'J19_J20_AM_signal_optimization.signals.add.xml' ... done (10ms).
+Loading additional-files from 'J19_J20_AM_signal_optimization.outputs.add.xml' ... done (3ms).
+Loading route-files incrementally from 'J19_J20_AM_signal_optimization.rou.xml'
+Loading done.
+Simulation version 1.27.1 started with time: 0.00.
+Simulation ended at time: 4200.00.
+Reason: The final simulation step has been reached.
+Performance:
+ Duration: 0.21s
+ Real time factor: 20000
+ UPS: 336485.714286
+Vehicles:
+ Inserted: 1407
+ Running: 0
+ Waiting: 0
+Statistics (avg of 1407):
+ RouteLength: 290.53
+ Speed: 6.75
+ Duration: 50.22
+ WaitingTime: 15.28
+ TimeLoss: 23.13
+ DepartDelay: 0.65
+ DepartDelayWaiting: 0.00

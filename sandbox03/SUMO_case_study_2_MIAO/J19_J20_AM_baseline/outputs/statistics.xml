@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-09-04T12:43:23.124515+08:00 by Eclipse SUMO GUI 1.27.1
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\J19_J20_AM_baseline.net.xml"/>
+        <route-files value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\J19_J20_AM_baseline.rou.xml"/>
+        <additional-files value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\J19_J20_AM_baseline.signals.add.xml,C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\J19_J20_AM_baseline.outputs.add.xml"/>
+    </input>
+
+    <output>
+        <queue-output value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\outputs/queue.xml"/>
+        <summary-output value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\outputs/summary.xml"/>
+        <tripinfo-output value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\outputs/tripinfo.xml"/>
+        <tripinfo-output.write-undeparted value="true"/>
+        <statistic-output value="C:\Users\28105\Documents\Book_Essay_Download\CIV5802\Case_Study_2\Penang_Traffic\sandbox03\SUMO_case_study_2_MIAO\J19_J20_AM_baseline\outputs/statistics.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="4200"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="300"/>
+    </processing>
+
+</sumoConfiguration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <performance clockBegin="46621.23" clockEnd="55672.55" clockDuration="9051.32" traciDuration="0.00" realTimeFactor="0.00" vehicleUpdatesPerSecond="0.00" personUpdatesPerSecond="0.00" begin="0.00" end="0.00" duration="0.00"/>
+    <vehicles loaded="0" inserted="0" running="0" waiting="0"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="0" emergencyBraking="0"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <personTeleports total="0" abortWait="0" wrongDest="0"/>
+    <vehicleTripStatistics count="0" routeLength="0.00" speed="0.00" duration="0.00" waitingTime="0.00" timeLoss="0.00" departDelay="0.00" departDelayWaiting="0.00" totalTravelTime="0.00" totalDepartDelay="0.00"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>
